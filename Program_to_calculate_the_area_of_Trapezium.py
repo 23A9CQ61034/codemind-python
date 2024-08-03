@@ -1,0 +1,5 @@
+a=int(input())
+b=int(input())
+h=int(input())
+t=((a+b)*h*0.5)
+print(f"{t:.4f}")
