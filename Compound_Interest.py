@@ -1,0 +1,5 @@
+P = float(input())
+R = float(input())
+T = float(input())
+Ci=(P*pow((1+R/100),T)-P)
+print(f"{Ci:.2f}")
