@@ -1,0 +1,6 @@
+input_str = input()
+a_str, b_str= input_str.split()
+a = float(a_str)  
+b = float(b_str)  
+c=((b-a)*100/a)
+print(f"{c:.2f}")
