@@ -1,5 +1,4 @@
-input_str = input()
-a_str, b_str,c_str = input_str.split()
+a_str, b_str,c_str = input().split()
 a = int(a_str)
 b = int(b_str)
 c = int(c_str)
