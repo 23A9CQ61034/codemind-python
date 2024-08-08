@@ -1,6 +1,3 @@
-a_str, b_str,c_str = input().split()
-a = int(a_str)
-b = int(b_str)
-c = int(c_str)
+a,b,c=map(int,input().split())
 d=3*a-(c+b)
 print(d)
